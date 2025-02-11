@@ -4,6 +4,9 @@
 
 import pyromod.listen
 import sys
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -100914748364779
 
 from pyrogram import Client, enums
 
